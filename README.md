@@ -1,32 +1,24 @@
-# 💖 sudo-valentine
+# sudo-valentine
 
-A fun terminal-based Valentine proposal script 😄  
-Because sometimes... normal permissions are not enough — you need **sudo** 😉
+> Because normal permissions are not enough for love 😉
 
----
-
-## 🚀 What is this?
-
-This is a bash script that simulates a Valentine proposal in the terminal.
-
-- Initial answer → ❌ "No way"
-- Use the right command → 🔐 unlock success
-- Hint: you need **elevated permissions** 😏
+A fun, terminal-based interactive Valentine proposal script built with **bash**.  
+Uses a simple concept every developer understands — **permissions** 😄
 
 ---
 
-## 🎮 How it works
+## 🚀 Overview
 
-1. Run the script
-2. You’ll see the proposal
-3. Type a command to respond
-4. If you use **sudo** → 🎉 SUCCESS
-5. Else → ❌ Access Denied
+This project simulates a proposal inside the terminal.
+
+- Default response → Rejected  
+- Correct approach → 🔐 Elevated access  
+- Final result → 🎉 Valentine secured  
 
 ---
 
-## ▶️ Run the Script
+## 🎯 Core Idea
 
 ```bash
-chmod +x valentine.sh
-./valentine.sh
+Love + No Permission = Denied
+Love + sudo        = Success
